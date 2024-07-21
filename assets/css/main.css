@@ -1,0 +1,11 @@
+.cover {
+  background: url('/assets/images/cover.jpg') no-repeat center top;
+  background-size: 100%;
+}
+
+@media (max-width: 768px) {
+  .cover {
+    background: url('/assets/images/cover-small.jpg') no-repeat center top;
+    background-size: 100%;
+  }
+}
